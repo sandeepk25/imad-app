@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-apt.get('/artical one',function(res,res){
+apt.get('/artical one',function(res, res){
 res.send('Artical one send requsted her ');
 });
     
