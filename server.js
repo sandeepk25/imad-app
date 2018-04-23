@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 apt.get('/artical one',function(res, res){
-    res.send('Artical are send requst here');
+    res.send('Artical one are send requst here');
 });
 }
     
